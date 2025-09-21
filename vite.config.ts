@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/BlueGone/', // <--- ADD THIS LINE
+      base: '/bluegone/', // <--- ADD THIS LINE (make sure your repo name matches!)
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
