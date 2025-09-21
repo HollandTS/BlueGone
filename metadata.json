@@ -1,0 +1,5 @@
+{
+  "name": "BlueGone Image Editor",
+  "description": "An advanced image editing tool to manipulate colors and transparency. Load an image, pick colors with an eyedropper, and adjust hue, saturation, brightness, and more with precise tolerance controls.",
+  "requestFramePermissions": []
+}
